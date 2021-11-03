@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.31605.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalServer", "UniversalServer\UniversalServer.csproj", "{1AB1526F-B0CA-4F6D-ACD6-5B33D4AC37B2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Universal-Server", "Universal-Server", "{CC25FEEE-78C3-4193-B096-3B96DDD7CD47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Universal-Client", "Universal-Client", "{B2D7EB2A-DF3B-4DDE-AD0E-5A1E2B4097F2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{8B23FB58-9507-4B33-98F0-281BF114CCAF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,6 +24,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1AB1526F-B0CA-4F6D-ACD6-5B33D4AC37B2} = {CC25FEEE-78C3-4193-B096-3B96DDD7CD47}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {210A3A10-4721-4100-92DA-3665E3F37D2C}
